@@ -2,51 +2,81 @@
 
 
 header {
-    padding:10px;
-    height: 100px;
+    padding-left: 10%;
+    padding-right: 15%;
+    padding-top: 30px;
+    padding-bottom: 0%;
+    /* height: 120px; */
     /* display: block; */
-    background-color: blanchedalmond;
-    margin: 10px;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    color:white
+    
+    
 
 }
 
 
 .links{
     text-align: right;
-    float:right;
-    background-color: blanchedalmond;
-    position: relative;
+    /* float:right; */
+    background-color: white;
+    position: absolute;
+    right: 10%;
+    top: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    height: 120px;
+    
+
     
 }
+/* 
+.aboutme{ */
+    /* float: right; */
+
 
 .name{ 
-    text-indent: 20%;
+    /* text-indent: 20%; */
     background-color: turquoise;
-    float: left;
-    clear: left;
+    
+    /* float: left; */
+    width: 35%;
+    text-align:center;
+    /* clear: left; */
+    height: 120px;
+    
+   
     
 }
 
 .bio-image{
-    position: absolute;
-    left: 0px;
-    width: 200px;
+    /* position: relative; */
+    /* left: 10px; */
+    width: 100px;
+    float: left;
+    /* height: 60% ; */
     }
 
 .flex-container{
-    width:25%;
+    margin: 25px 0px 0px 0px;
+    height: 80%;
+    width: 80%;
     /* height: 60px; */
     margin: 0 auto;
     /* border-radius: 3px; */
-    background-color: lightslategray;
+    background-color: whitesmoke;
     float: none;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
-body{ background-color: lightsteelblue;}
+body{ 
+    background-image: url("triangle-mosaic.png");
+    background-repeat: repeat ;
+}
 
 footer {background-color: gray;
         clear: both;
